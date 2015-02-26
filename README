@@ -1,0 +1,8 @@
+This project was developed by Ben Lipson in the Fall of 2013
+
+This project is a custom shell for Bash within a unix based operating system.
+It employs different system calls to create a user interface for working in 
+the file system. First the input is read a parsed (it checks for pipes as well), 
+then it runs the system call through the use of a fork() and exec() call. The 
+project also includes code for the time command. It only works with commands 
+within /usr/bin but it could very easily be changed.
